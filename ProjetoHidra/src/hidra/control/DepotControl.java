@@ -51,8 +51,8 @@ import org.eclipse.jgit.treewalk.CanonicalTreeParser;
 import selectFilesAndDirectories.Select;
 
 /**
- * @author pedro
- *
+ * @author Danielli Urbieta e Pedro Souza
+ * 
  */
 public class DepotControl implements IDepot<Depot> {
 

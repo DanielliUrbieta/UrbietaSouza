@@ -15,9 +15,9 @@ import org.eclipse.jgit.lib.Repository;
 import org.eclipse.jgit.treewalk.AbstractTreeIterator;
 
 /**
- * @author Souza e Urbieta
+ * @author Danielli Urbieta e Pedro Souza
  * @param <Depot>
- *
+ * 
  */
 public interface IDepot<Depot> {
 

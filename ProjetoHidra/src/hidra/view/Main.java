@@ -11,8 +11,8 @@ import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.api.errors.NoFilepatternException;
 
 /**
- * @author danielli
- *
+ * @author Danielli Urbieta e Pedro Souza
+ * 
  */
 public class Main {
 
