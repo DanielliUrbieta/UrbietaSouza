@@ -9,8 +9,8 @@ import org.eclipse.jgit.errors.NoWorkTreeException;
 import org.eclipse.jgit.errors.RevisionSyntaxException;
 
 /**
- * @author pedro e Danielli Urbieta Rocha
- *
+ * @author Pedro Souza e Danielli Urbieta
+ * 
  */
 public class MainTestAll {
 
