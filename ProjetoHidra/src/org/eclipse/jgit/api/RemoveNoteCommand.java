@@ -79,6 +79,7 @@ public class RemoveNoteCommand extends GitCommand<Note> {
 		super(repo);
 	}
 
+	@SuppressWarnings("nls")
 	public Note call() throws GitAPIException {
 		checkCallable();
 		RevWalk walk = new RevWalk(repo);

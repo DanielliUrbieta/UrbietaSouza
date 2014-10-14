@@ -52,7 +52,7 @@ import selectFilesAndDirectories.Select;
 
 /**
  * @author Danielli Urbieta e Pedro Souza
- * 
+ *
  */
 public class DepotControl implements IDepot<Depot> {
 
@@ -125,6 +125,16 @@ public class DepotControl implements IDepot<Depot> {
 
 	}
 
+	/**
+	 * funcionalidade Init. Sempre sera necessario antes da execucao de qualquer
+	 * outra funcionalidade pois ele e o responsavel pela iniciacao da Classe
+	 * Depot.
+	 */
+
+	/**
+	 * funcionalidade init recebe como parametro um objeto do tipo Depot e
+	 * inicializa o como repositorio o diretorio pertencente ao objeto Depot
+	 */
 	public void init(Depot myDepot) {
 
 		File dir = new File(myDepot.getLocalPath());
